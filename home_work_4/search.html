@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>car shop</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Кузов</legend>
+        <label for="Sedan">
+          <input type="radio" name="type_body" value="Sedan" id="Sedan" />
+          <span>Седан</span>
+        </label>
+        <label for="Hatchback">
+          <input
+            type="radio"
+            name="type_body"
+            value="Hatchback"
+            id="Hatchback"
+          />
+          <span>Хетчбек</span>
+        </label>
+        <label for="Crossover">
+          <input
+            type="radio"
+            name="type_body"
+            value="Crossover"
+            id="Crossover"
+          />
+          <span>Кроссовер</span>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Марка авто</legend>
+        <label for="brand">Brand</label>
+        <select name="brand">
+          <option value="ford">ford</option>
+          <option value="subaru">subaru</option>
+          <option value="BMW">BMW</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Країна виробник</legend>
+        <label for="country"></label>
+        <select name="countru">
+          <option value="japan">Японія</option>
+          <option value="germany">Німетчина</option>
+          <option value="china">Китай</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <label
+          >Ціна $
+          <input type="number" name="prise_min" placeholder="Від" />
+          <input type="number" name="prise_max" placeholder="До" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <label
+          >Рік випуску
+          <select name="initial_year" data-placeholder="Від">
+            <option value="0" selected="selected">Від</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+          </select>
+          <select name="final_year" data-placeholder="До">
+            <option value="0" selected="selected">До</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Стан</legend>
+        <label for="technical_condition"
+          >Вживані<input
+            type="checkbox"
+            name="technical_condition"
+            value="used"
+            id="technical_condition"
+        /></label>
+        <label
+          >Нерозмитнені<input
+            type="checkbox"
+            name="technical_condition"
+            value="uncleared"
+            id="technical_condition"
+        /></label>
+        <label for="technical_condition"
+          >Нові<input
+            type="checkbox"
+            name="technical_condition"
+            value="new"
+            id="technical_condition"
+        /></label>
+        <label for="technical_condition"
+          >Після ДТП<input
+            type="checkbox"
+            name="technical_condition"
+            value="crashed"
+            id="technical_condition"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <legend>Тип палива</legend>
+        <label>Бензин<input type="radio" name="fuel" value="gasoline" /></label>
+        <label>Газ<input type="radio" name="fuel" value="gas" /></label>
+        <label>Дизель<input type="radio" name="fuel" value="diesel" /></label>
+        <label
+          >Газ/Бензин<input type="radio" name="fuel" value="gasoline_gas"
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label
+          >Коробка передач
+          <select name="transmission">
+            <option value="auto">Автомат</option>
+            <option value="mechanic">Ручна</option>
+            <option value="tiptronic">Тіптронік</option>
+          </select></label
+        >
+      </fieldset>
+      <fieldset>
+        <label for="color">Оберіть колір</label>
+        <select name="color">
+          <option value="red">червоний</option>
+          <option value="green">зелений</option>
+          <option value="blue">блакитний</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Комфорт</legend>
+        <label for="hatch"
+          >Люк<input type="checkbox" name="comfort" id="hatch" value="hatch"
+        /></label>
+        <label for="air_conditioning"
+          >Кондиціонер<input
+            type="checkbox"
+            name="comfort"
+            id="air_conditioning"
+            value="air_conditioning"
+        /></label>
+        <label for="skin"
+          >Кожа<input type="checkbox" name="comfort" id="skin" value="skin"
+        /></label>
+        <label for="climate_control"
+          >Клімат контроль<input
+            type="checkbox"
+            name="comfort"
+            id="climate_control"
+            value="climate_control"
+        /></label>
+      </fieldset>
+      <button type="reset">Reset</button>
+      <button type="submit">Search</button>
+    </form>
+  </body>
+</html>
