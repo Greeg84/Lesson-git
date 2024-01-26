@@ -1,4 +1,7 @@
 
+*{
+    color: rgb(61, 18, 169);
+}
 p {
     color: rgb(106, 128, 73);
 }
@@ -17,6 +20,14 @@ p {
 div span {
     color: rgb(197, 236, 20);
 }
-[ref="www.youtube.com"] {
+[ref="https://www.youtube.com/watch?v=XnUNOaxw6bs&ab_channel=BestofMix"] {
     color: rgb(90, 161, 122);
+}
+
+.parent>.child {
+    color: rgb(201, 117, 7);
+}
+
+i+b {
+    color: rgb(29, 96, 59);
 }
