@@ -1,0 +1,22 @@
+
+p {
+    color: rgb(106, 128, 73);
+}
+
+#idselector {
+    color: red;
+}
+
+.selectorblue {
+    color: #1a5eb7;
+}
+.selectorpink.combie{
+    color: rgb(234, 11, 182);
+}
+
+div span {
+    color: rgb(197, 236, 20);
+}
+[ref="www.youtube.com"] {
+    color: rgb(90, 161, 122);
+}
