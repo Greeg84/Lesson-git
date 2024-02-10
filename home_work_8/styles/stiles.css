@@ -1,0 +1,152 @@
+* {
+    font-family: roboto;
+    box-sizing: border-box;
+    font-style: normal;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.saction{
+    max-width: 100%;
+
+}
+.header-saction {
+    background-color: rgb(238, 239, 241);
+    min-height: 700px;
+    max-width: 100%;
+}
+
+.conteiner {
+    max-width: 1100px;
+    margin: 0 auto;    
+}
+
+.nav {
+    padding: 52px 0 151px 0;
+
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list-item {
+    line-height: 164.063%;
+    /* 26.25px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.name-item {
+    margin: 0 42px 0 0;
+}
+
+.nav-list-item :hover {
+    cursor: pointer;
+    color: #34547A;
+}
+
+.title-container {
+    max-width: 540px;
+    display: inline-block;
+    text-align: left;
+    padding-bottom: 168px;    
+}
+
+.title {
+    color: #000;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 164.063%;
+    /* 78.75px */
+    text-align: left;    
+}
+
+.title-tex {
+    color: #727272;
+    font-weight: 400;
+    line-height: 164.063%;
+    /* 26.25px */
+    margin: 65px 0 80px 0;
+    display: inline-block;
+}
+
+.btn {
+    color: #FFF;
+    background: #34547A;
+    padding: 20px 41px;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    margin-top: 65px;
+}
+
+.main-saction{
+    background-color:#F9F9F9;
+    padding: 85px 0 100px 0;
+    
+
+}
+
+.title-main{
+text-align: center;
+font-size: 32px;
+font-weight: 500;
+line-height: normal;
+padding-bottom: 50px;
+margin: 0 auto;
+}
+
+.text-main{
+    color: #727272;
+text-align: center;
+line-height: 164.063%; /* 26.25px */
+max-width: 540px;
+margin: 0 auto;
+
+}
+
+.project-saction{
+    background-color: #34547A;
+    min-height: 250px;
+    margin: 0 auto;
+    
+}
+
+.project-conteiner {
+    max-width: 1100px;
+    padding: 100px 0;
+    margin: 0 auto;
+}
+.poject-group {
+    padding-right: 45px;
+    display: inline-block;
+    font-size: 0;
+}
+
+.project {
+    display: inline-block;   
+
+}
+
+.project-info {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.project-heading{
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.project-text{
+    color: #FFF;
+    line-height: 164.063%; /* 26.25px */
+    display: inline-block;
+
+}
