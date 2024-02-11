@@ -9,11 +9,12 @@
     padding: 0;
 }
 
-.saction{
+.section {
     max-width: 100%;
 
 }
-.header-saction {
+
+.header-section {
     background-color: rgb(238, 239, 241);
     min-height: 700px;
     max-width: 100%;
@@ -21,7 +22,7 @@
 
 .conteiner {
     max-width: 1100px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 .nav {
@@ -54,7 +55,7 @@
     max-width: 540px;
     display: inline-block;
     text-align: left;
-    padding-bottom: 168px;    
+    padding-bottom: 168px;
 }
 
 .title {
@@ -63,7 +64,7 @@
     font-weight: 500;
     line-height: 164.063%;
     /* 78.75px */
-    text-align: left;    
+    text-align: left;
 }
 
 .title-tex {
@@ -84,36 +85,37 @@
     margin-top: 65px;
 }
 
-.main-saction{
-    background-color:#F9F9F9;
+.main-section {
+    background-color: #F9F9F9;
     padding: 85px 0 100px 0;
-    
+
 
 }
 
-.title-main{
-text-align: center;
-font-size: 32px;
-font-weight: 500;
-line-height: normal;
-padding-bottom: 50px;
-margin: 0 auto;
+.title-main {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 50px;
+    margin: 0 auto;
 }
 
-.text-main{
+.text-main {
     color: #727272;
-text-align: center;
-line-height: 164.063%; /* 26.25px */
-max-width: 540px;
-margin: 0 auto;
+    text-align: center;
+    line-height: 164.063%;
+    /* 26.25px */
+    max-width: 540px;
+    margin: 0 auto;
 
 }
 
-.project-saction{
+.project-section {
     background-color: #34547A;
     min-height: 250px;
     margin: 0 auto;
-    
+
 }
 
 .project-conteiner {
@@ -121,6 +123,7 @@ margin: 0 auto;
     padding: 100px 0;
     margin: 0 auto;
 }
+
 .poject-group {
     padding-right: 45px;
     display: inline-block;
@@ -128,7 +131,7 @@ margin: 0 auto;
 }
 
 .project {
-    display: inline-block;   
+    display: inline-block;
 
 }
 
@@ -137,16 +140,69 @@ margin: 0 auto;
     display: inline-block;
 }
 
-.project-heading{
+.project-heading {
     color: #FFF;
     font-size: 21px;
     font-weight: 500;
     line-height: normal;
 }
 
-.project-text{
+.project-text {
     color: #FFF;
-    line-height: 164.063%; /* 26.25px */
+    line-height: 164.063%;
+    /* 26.25px */
     display: inline-block;
 
+}
+
+.video-section {
+    min-height: 1000px;
+
+}
+
+.video-conteiner {
+    padding: 100px 0;
+
+}
+
+.info-video {}
+
+.title-video-conteiner {
+    padding-bottom: 50px;
+}
+
+.text-video-conteiner {
+    padding-bottom: 57px;
+}
+
+.video {
+    width: 1100px;
+    height: 600px;
+
+}
+
+.footer {
+    height: 151px;
+    background-color: #34547A;
+
+}
+
+.footer-content {
+    padding: 50px 0;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 20px;
+
+}
+
+.footer-text {
+    color: #FFF;
+    font-size: 13px;
+    line-height: 164.063%;
+    /* 21.328px */
 }
