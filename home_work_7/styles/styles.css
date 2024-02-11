@@ -1,23 +1,25 @@
-*{
+* {
     box-sizing: border-box;
-    font-family: roboto;
+    font-family: roboto sans-serif;
 }
+
 .wrapper {
     width: 660px;
     margin: 0 auto;
     font-size: 0;
-    
+
 
 }
+
 .card {
     display: inline-block;
     min-height: 226px;
     width: 200px;
     margin-right: 20px;
     margin-bottom: 20px;
-    background:#C4C4C4;
+    background: #C4C4C4;
     font-size: 14px;
-    padding: 0 35 18;
+    padding: 0 35px 18px;
     text-align: center;
 }
 
@@ -25,13 +27,13 @@
     width: 130px;
 }
 
-.title_card{
+.title_card {
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
 }
 
-.name_album{
+.name_album {
     font-weight: normal;
     line-height: 18px;
 }
