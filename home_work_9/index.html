@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Многорівневе меню</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <ul class="menu">
+      <li class="menu-item">home</li>
+      <li class="menu-item submenu">
+        product
+        <ul class="second-menu">
+          <li class="second-menu-item">
+            Product 1
+            <ul class="menu-subproduct1">
+              <li class="menu-item submenu">Subitem</li>
+              <li class="menu-item submenu">Subitem</li>
+            </ul>
+          </li>
+          <li class="second-menu-item">
+            Product 2
+            <ul class="menu-subproduct2">
+              <li class="menu-item submenu">Subitem</li>
+              <li class="menu-item submenu">Subitem</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="menu-item">about</li>
+      <li class="menu-item">contact</li>
+    </ul>
+  </body>
+</html>
